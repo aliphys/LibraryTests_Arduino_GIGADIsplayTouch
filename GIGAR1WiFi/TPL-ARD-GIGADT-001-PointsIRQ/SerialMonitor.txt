@@ -1,0 +1,51 @@
+
+---------
+Test Scenario ID: TPL-ARD-GIGADT-001-ValueIRQ
+---------
+
+Touch controller init - OK
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsIRQ-1
+Touch screen with one finger...
+Contacts: 1
+260 385
+One Finger Detected!
+Contacts: 1
+260 385
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsIRQ-2
+Touch screen with two fingers...
+Contacts: 2
+210 357
+Two Fingers Detected!
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsIRQ-3
+Touch screen with three fingers...
+Contacts: 3
+290 512
+Three Fingers Detected!
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsIRQ-4
+Touch screen with four fingers...
+Contacts: 4
+214 726
+Four Fingers Detected!
+Contacts: 4
+214 726
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsIRQ-5
+Touch screen with five fingers...
+Contacts: 5
+266 688
+Five Fingers Detected!
+Contacts: 5
+266 688
+
+---------
+End of Test Scenario ID: TPL-ARD-GIGADT-001-ValueIRQ
+---------
+
+Contacts: 5
+266 688
+Contacts: 5
+266 688

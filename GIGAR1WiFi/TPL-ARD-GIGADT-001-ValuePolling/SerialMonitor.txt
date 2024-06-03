@@ -1,0 +1,104 @@
+---------
+Test Scenario ID: TPL-ARD-GIGADT-001-ValuePolling
+---------
+
+Touch controller init - OK---
+Test Case ID: TPL-ARD-GIGADT-001-ValuePolling-TL
+Get border x,y value for top left corner...
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Point: 473 6
+Top left border values are: 473, 6
+---
+Test Case ID: TPL-ARD-GIGADT-001-ValuePolling-TR
+Get border x,y value for top right corner...
+Point: 473 6
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Point: 473 793
+Top right border values are: 473, 793
+---
+Test Case ID: TPL-ARD-GIGADT-001-ValuePolling-BR
+Get border x,y value for bottom right corner...
+Point: 473 793
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Point: 6 791
+Bottom right border values are: 6, 394007
+---
+Test Case ID: TPL-ARD-GIGADT-001-ValuePolling-BL
+Get border x,y value for bottom left corner...
+Point: 6 791
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Point: 6 6
+Bottom left border values are: 6, 6
+
+---------
+End of Test Scenario ID: TPL-ARD-GIGADT-001-ValuePolling
+---------

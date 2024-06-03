@@ -1,0 +1,29 @@
+
+---------
+Test Scenario ID: TPL-ARD-GIGADT-001-ValuePolling
+---------
+
+Touch controller init - OK---
+Test Case ID: TPL-ARD-GIGADT-001-PointsPolling-1
+Touch screen with one finger...
+Single Touch Detected!: 239 403
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsPolling-2
+Touch screen with two fingers...
+Two Fingers Detected!: 219 377
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsPolling-3
+Touch screen with three fingers...
+Three Fingers Detected!: 270 248
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsPolling-4
+Touch screen with four fingers...
+Four Fingers Detected!: 262 644
+---
+Test Case ID: TPL-ARD-GIGADT-001-PointsPolling-5
+Touch screen with five fingers...
+Five Fingers Detected!: 52 125
+
+---------
+End of Test Scenario ID: TPL-ARD-GIGADT-001-ValuePolling
+---------

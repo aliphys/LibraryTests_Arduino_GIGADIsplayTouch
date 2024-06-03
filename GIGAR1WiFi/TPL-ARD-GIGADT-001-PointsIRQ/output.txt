@@ -1,0 +1,126 @@
+
+FQBN: arduino:mbed_giga:giga
+Using board 'giga' from platform in folder: C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3
+Using core 'arduino' from platform in folder: C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3
+
+Detecting libraries used...
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_GIGA -DARDUINO_ARCH_MBED_GIGA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/../GIGA/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\sketch\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp -o nul
+Alternatives for Arduino_GigaDisplayTouch.h: [Arduino_GigaDisplayTouch@1.0.1]
+ResolveLibrary(Arduino_GigaDisplayTouch.h)
+  -> candidates: [Arduino_GigaDisplayTouch@1.0.1]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_GIGA -DARDUINO_ARCH_MBED_GIGA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_GigaDisplayTouch\src -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/../GIGA/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\sketch\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp -o nul
+Alternatives for Wire.h: [Wire]
+ResolveLibrary(Wire.h)
+  -> candidates: [Wire]
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_GIGA -DARDUINO_ARCH_MBED_GIGA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_GigaDisplayTouch\src -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\libraries\Wire -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/../GIGA/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\sketch\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp -o nul
+Using cached library dependencies for file: c:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_GigaDisplayTouch\src\Arduino_GigaDisplayTouch.cpp
+Using cached library dependencies for file: C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\libraries\Wire\Wire.cpp
+Generating function prototypes...
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\arm-none-eabi-gcc\7-2017q4/bin/arm-none-eabi-g++ -c -w -g3 -nostdlib @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/defines.txt @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/cxxflags.txt -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -w -x c++ -E -CC -DARDUINO=10607 -DARDUINO_GIGA -DARDUINO_ARCH_MBED_GIGA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=1 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA -Ic:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_GigaDisplayTouch\src -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\libraries\Wire -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated -IC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino/api/deprecated-avr-comp -iprefixC:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\cores\arduino @C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\variants\GIGA/../GIGA/includes.txt C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\sketch\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp -o C:\Users\Ali Jahangiri\AppData\Local\Temp\2080156620\sketch_merged.cpp
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\builtin\tools\ctags\5.8-arduino11/ctags -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives C:\Users\Ali Jahangiri\AppData\Local\Temp\2080156620\sketch_merged.cpp
+Compiling sketch...
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++" -c -w -g3 -nostdlib "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA/defines.txt" "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA/cxxflags.txt" -MMD -mcpu=cortex-m7 -mfloat-abi=softfp -mfpu=fpv5-d16 -DARDUINO=10607 -DARDUINO_GIGA -DARDUINO_ARCH_MBED_GIGA -DARDUINO_ARCH_MBED -DARDUINO_LIBRARY_DISCOVERY_PHASE=0 "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\cores\\arduino" "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA" "-Ic:\\Users\\Ali Jahangiri\\Documents\\Arduino\\libraries\\Arduino_GigaDisplayTouch\\src" "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\libraries\\Wire" -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\cores\\arduino/api/deprecated" "-IC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\cores\\arduino/api/deprecated-avr-comp" "-iprefixC:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\cores\\arduino" "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA/../GIGA/includes.txt" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\sketch\\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp" -o "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\sketch\\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp.o"
+Compiling libraries...
+Compiling library "Arduino_GigaDisplayTouch"
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\libraries\Arduino_GigaDisplayTouch\Arduino_GigaDisplayTouch.cpp.o
+Compiling library "Wire"
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\libraries\Wire\Wire.cpp.o
+Compiling core...
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\core\pure_analog_pins.cpp.o
+Using previously compiled file: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5\core\variant.cpp.o
+Using precompiled core: C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\cores\arduino_mbed_giga_giga_split_100_0,target_core_cm7_617b68554cdc64706908e8aa639730b4\core.a
+Linking everything together...
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++" -E -P -x c -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA/linker_script.ld" -o "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/linker_script.ld"
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++" "-LC:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5" -Wl,--gc-sections -w -Wl,--as-needed -DCM4_BINARY_START=0x60000000 -DCM4_BINARY_END=0x60040000 -DCM4_RAM_END=0x60080000 "@C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA/ldflags.txt" "-TC:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/linker_script.ld" "-Wl,-Map,C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.map" --specs=nosys.specs -o "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.elf" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\sketch\\TPL-ARD-GIGADT-001-PointsIRQ.ino.cpp.o" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\libraries\\Arduino_GigaDisplayTouch\\Arduino_GigaDisplayTouch.cpp.o" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\libraries\\Wire\\Wire.cpp.o" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\core\\pure_analog_pins.cpp.o" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5\\core\\variant.cpp.o" -Wl,--whole-archive "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/..\\..\\cores\\arduino_mbed_giga_giga_split_100_0,target_core_cm7_617b68554cdc64706908e8aa639730b4\\core.a" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_giga\\4.1.3\\variants\\GIGA/libs/libmbed.a" -Wl,--no-whole-archive -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-objcopy" -O binary "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.elf" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.bin"
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-objcopy" -O ihex -R .eeprom "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.elf" "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.hex"
+C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\bootloaders\GIGA\bootloader.elf syntax error: no colon char on the first line character at line 1
+
+Using library Arduino_GigaDisplayTouch at version 1.0.1 in folder: C:\Users\Ali Jahangiri\Documents\Arduino\libraries\Arduino_GigaDisplayTouch 
+Using library Wire in folder: C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\hardware\mbed_giga\4.1.3\libraries\Wire (legacy)
+"C:\\Users\\Ali Jahangiri\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-size" -A "C:\\Users\\Ali Jahangiri\\AppData\\Local\\Temp\\arduino\\sketches\\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.elf"
+Sketch uses 128336 bytes (6%) of program storage space. Maximum is 1966080 bytes.
+Global variables use 52816 bytes (10%) of dynamic memory, leaving 470808 bytes for local variables. Maximum is 523624 bytes.
+Performing 1200-bps touch reset on serial port COM8
+Waiting for upload port...
+Upload port found on COM28
+"C:\Users\Ali Jahangiri\AppData\Local\Arduino15\packages\arduino\tools\dfu-util\0.10.0-arduino1/dfu-util" --device 0x2341:0x0366 -D "C:\Users\Ali Jahangiri\AppData\Local\Temp\arduino\sketches\F464776DE138831D45803E64B5CB3FD5/TPL-ARD-GIGADT-001-PointsIRQ.ino.bin" -a0 --dfuse-address=0x08040000:leave
+dfu-util 0.10-dev
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2021 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Opening DFU capable USB device...
+Device ID 2341:0366
+Device DFU version 011a
+Claiming USB DFU Interface...
+Setting Alternate Interface #0 ...
+Determining device status...
+DFU state(2) = dfuIDLE, status(0) = No error condition is present
+DFU mode device DFU version 011a
+Device returned transfer size 4096
+DfuSe interface name: "Internal Flash  2MB   "
+Downloading element to address = 0x08040000, size = 131284
+
+Erase   	[                         ]   0%            0 bytes
+Erase   	[=                        ]   6%         8192 bytes
+Erase   	[==                       ]   9%        12288 bytes
+Erase   	[===                      ]  12%        16384 bytes
+Erase   	[====                     ]  18%        24576 bytes
+Erase   	[=====                    ]  21%        28672 bytes
+Erase   	[======                   ]  24%        32768 bytes
+Erase   	[=======                  ]  28%        36864 bytes
+Erase   	[========                 ]  34%        45056 bytes
+Erase   	[=========                ]  37%        49152 bytes
+Erase   	[==========               ]  40%        53248 bytes
+Erase   	[===========              ]  46%        61440 bytes
+Erase   	[============             ]  49%        65536 bytes
+Erase   	[=============            ]  53%        69632 bytes
+Erase   	[==============           ]  56%        73728 bytes
+Erase   	[===============          ]  62%        81920 bytes
+Erase   	[================         ]  65%        86016 bytes
+Erase   	[=================        ]  68%        90112 bytes
+Erase   	[==================       ]  74%        98304 bytes
+Erase   	[===================      ]  77%       102400 bytes
+Erase   	[====================     ]  81%       106496 bytes
+Erase   	[=====================    ]  84%       110592 bytes
+Erase   	[======================   ]  90%       118784 bytes
+Erase   	[=======================  ]  93%       122880 bytes
+Erase   	[======================== ]  96%       126976 bytes
+Erase   	[======================== ]  99%       131072 bytes
+Erase   	[=========================] 100%       131284 bytes
+Erase    done.
+
+Download	[                         ]   0%            0 bytes
+Download	[=                        ]   6%         8192 bytes
+Download	[==                       ]   9%        12288 bytes
+Download	[===                      ]  12%        16384 bytes
+Download	[====                     ]  18%        24576 bytes
+Download	[=====                    ]  21%        28672 bytes
+Download	[======                   ]  24%        32768 bytes
+Download	[=======                  ]  28%        36864 bytes
+Download	[========                 ]  34%        45056 bytes
+Download	[=========                ]  37%        49152 bytes
+Download	[==========               ]  40%        53248 bytes
+Download	[===========              ]  46%        61440 bytes
+Download	[============             ]  49%        65536 bytes
+Download	[=============            ]  53%        69632 bytes
+Download	[==============           ]  56%        73728 bytes
+Download	[===============          ]  62%        81920 bytes
+Download	[================         ]  65%        86016 bytes
+Download	[=================        ]  68%        90112 bytes
+Download	[==================       ]  74%        98304 bytes
+Download	[===================      ]  77%       102400 bytes
+Download	[====================     ]  81%       106496 bytes
+Download	[=====================    ]  84%       110592 bytes
+Download	[======================   ]  90%       118784 bytes
+Download	[=======================  ]  93%       122880 bytes
+Download	[======================== ]  96%       126976 bytesWarning: Invalid DFU suffix signature
+A valid DFU suffix will be required in a future dfu-util release
+
+Download	[=========================] 100%       131284 bytes
+Download done.
+File downloaded successfully
+Transitioning to dfuMANIFEST state
